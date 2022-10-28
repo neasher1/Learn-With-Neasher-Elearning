@@ -12,20 +12,20 @@ const Blog = () => {
                 </div>
                 <div className="row mt-4">
                     <div className="col-lg-4">
-                        <h4>what is cors??</h4>
-                        <p>Cross-Origin Resource Sharing CORS is an HTTP-header based mechanism that allows a server to indicate any origins domain, scheme, or port other than its own from which a browser should permit loading resources. CORS also relies on a mechanism by which browsers make a "preflight" request to the server hosting the cross-origin resource, in order to check that the server will permit the actual request. </p>
+                        <h4>What is Cors??</h4>
+                        <p>Cross-origin resource sharing is a mechanism that allows restricted resources on a web page to be requested from another domain outside the domain from which the first resource was served. A web page may freely embed cross-origin images, stylesheets, scripts, iframes, and videos.  </p>
                     </div>
                     <div className="col-lg-4">
                         <h4>Why are you using firebase? What other options do you have to implement authentication?</h4>
-                        <p>Firebase provides tools to grow your app and business, for startups & global enterprises. Get your app up and running quickly & securely with fully managed backend infrastructure. Cross-Platform Solutions. Build Extraordinary Apps. 15+ Products & Solutions.</p>
+                        <p>Firebase Authentication provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to your app. It supports authentication using passwords, phone numbers, popular federated identity providers like Google, Facebook and Twitter, and more.</p>
                     </div>
                     <div className="col-lg-4">
                         <h4>How does the private route work?</h4>
-                        <p>The private route component is similar to the public route, the only change is that redirect URL and authenticate condition. If the user is not authenticated he will be redirected to the login page and the user can only access the authenticated routes If he is authenticated </p>
+                        <p>The react private route component renders child components ( children ) if the user is logged in. If not logged in the user is redirected to the /login page with the return url passed in the location state property.</p>
                     </div>
                     <div className="col-lg-4">
                         <h4> What is Node? How does Node work?</h4>
-                        <p>Node. js is a JavaScript runtime environment that achieves low latency and high throughput by taking a “non-blocking” approach to serving requests. In other words, Node. js wastes no time or resources on waiting for I/O requests to return.</p>
+                        <p>It is a used as backend service where javascript works on the server-side of the application. This way javascript is used on both frontend and backend. Node. js runs on chrome v8 engine which converts javascript code into machine code, it is highly scalable, lightweight, fast, and data-intensive.</p>
                     </div>
                 </div>
             </div>
