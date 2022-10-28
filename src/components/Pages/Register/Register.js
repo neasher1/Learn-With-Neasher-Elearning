@@ -25,11 +25,11 @@ const Register = () => {
                     .then(res => {
                         toast.success('Registration Successfull')
                     })
-                    .catch(err => toast.error(err.message))
+                    .catch(error => toast.error(error.message))
 
             })
-            .catch(err => {
-                toast.error(err.message);
+            .catch(error => {
+                toast.error(error.message);
             })
         form.reset();
     }
@@ -48,8 +48,8 @@ const Register = () => {
             .then(res => {
                 toast.success('Login Successfully')
             })
-            .catch(err => {
-                toast.error(err.message)
+            .catch(error => {
+                toast.error(error.message)
             })
     }
 
