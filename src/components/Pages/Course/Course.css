@@ -1,0 +1,28 @@
+.top-image img{
+    height: 200px;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px ;
+
+}
+.course-card{
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
+.course-btn{
+    background-color: #0d7ecf;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-radius: 2px;
+}
+.course-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.course-btn a:hover {
+    color: #fff;
+}

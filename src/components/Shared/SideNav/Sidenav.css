@@ -1,0 +1,7 @@
+.course-sidenav{
+    height: 100vh;
+}
+.side-nav {
+    position: sticky;
+    top: 100px;
+}

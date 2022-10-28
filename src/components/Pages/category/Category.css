@@ -1,0 +1,9 @@
+.category-single{
+    padding: 10px;
+    border: 1px solid #eaeaea;
+    text-transform: uppercase;
+}
+.category-link{
+    text-decoration: none;
+    color: #333;
+}
