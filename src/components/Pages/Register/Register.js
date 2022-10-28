@@ -81,10 +81,10 @@ const Register = () => {
                             </form>
                             <p>Are You Already Registered ? Please <Link className='register-link' to='/login'>Login</Link></p>
                             <div className='mt-2'>
-                                <button className='px-3 py-2' onClick={googleSignIn}> <img src={googleImg} className="google-icon" alt="" />continue with google</button>
+                                <button className='px-3 py-2' onClick={googleSignIn}> <img src={googleImg} className="google-icon" alt="" />Continue with Google</button>
                             </div>
                             <div className='mt-2'>
-                                <button className='px-3 py-2' onClick={githubSignIn}> <img src={githubImg} className="google-icon" alt="" /> continue with github</button>
+                                <button className='px-3 py-2' onClick={githubSignIn}> <img src={githubImg} className="google-icon" alt="" />Continue with Github</button>
                             </div>
 
                         </div>
